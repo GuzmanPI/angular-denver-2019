@@ -6,11 +6,10 @@ import {BrowserModule} from '@angular/platform-browser';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {GeoDataService} from './geo-entities/directive/service/geo-data.service';
-import {DragDropModule} from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [ComponentsComponent, GeoEntitiesComponent, GeoDataDirective],
-  imports: [ BrowserModule, FormsModule, HttpClientModule, DragDropModule],
+  imports: [ BrowserModule, FormsModule, HttpClientModule],
   providers: [GeoDataService],
   exports: [ComponentsComponent, GeoEntitiesComponent]
 

@@ -1,19 +1,11 @@
-import { BrowserModule } from "@angular/platform-browser";
-import { NgModule } from "@angular/core";
-
-import { AppComponent } from "./app.component";
-<<<<<<< Updated upstream
-
-@NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule],
-=======
+import {AppComponent} from './app.component';
+import {BrowserModule} from '@angular/platform-browser';
 import {ComponentsModule} from '../../../components/src/lib/components.module';
+import {NgModule} from '@angular/core';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, ComponentsModule],
->>>>>>> Stashed changes
   providers: [],
   bootstrap: [AppComponent]
 })

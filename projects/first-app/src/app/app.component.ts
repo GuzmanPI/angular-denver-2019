@@ -1,8 +1,5 @@
 import { Component } from "@angular/core";
-<<<<<<< Updated upstream
-=======
 import {City, Country, State} from '../../../components/src/lib/data-models/geo-entities.model';
->>>>>>> Stashed changes
 
 @Component({
   selector: "app-root",
@@ -10,9 +7,6 @@ import {City, Country, State} from '../../../components/src/lib/data-models/geo-
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-<<<<<<< Updated upstream
-  title = "first-app";
-=======
   country: Country;
   state: State;
   city: City;
@@ -28,5 +22,4 @@ export class AppComponent {
   selectCity(city: City): void {
     this.city = city;
   }
->>>>>>> Stashed changes
 }

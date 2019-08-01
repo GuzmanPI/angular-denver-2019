@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1>Welcome to {{ title }}!</h1>
@@ -31,3 +32,14 @@
     </h2>
   </li>
 </ul>
+=======
+<img class="angular-denver" src="../assets/angular-denver-logo.png">
+
+<lib-geo-entities (onSelectCountry)="selectCountry($event)"
+                  (onSelectState)="selectState($event)"
+                  (onSelectCity)="selectCity($event)"></lib-geo-entities>
+
+<p class="geo-entity country">{{country | json}}</p>
+<p class="geo-entity state">{{state | json}}</p>
+<p class="geo-entity city">{{city | json}}</p>
+>>>>>>> Stashed changes
